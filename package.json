@@ -12,5 +12,28 @@
   "scripts": {
     "dev": "tsc index.ts",
     "test": "jest"
-  }
+  },
+  "name": "lin-utils",
+  "description": "工具库\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D",
+  "version": "1.0.0",
+  "main": "jest.config.js",
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/linhuibin98/lin-utils.git"
+  },
+  "keywords": [
+    "arra",
+    "function",
+    "object",
+    "\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[D\u001b[Dutils\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[D\u001b[D\u001b[D\u001b[Darray"
+  ],
+  "author": "linhuibin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/linhuibin98/lin-utils/issues"
+  },
+  "homepage": "https://github.com/linhuibin98/lin-utils#readme"
 }
