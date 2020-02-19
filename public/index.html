@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <button id="btn">点我啊~</button>
+
+    <script>
+      function throttle(fn, delay) {
+        let lastTime = 0
+        return () => {
+          let currentTime = new Date().getTime()
+          if (currentTime - lastTime > delay) {
+            fn()
+            lastTime = currentTime
+          }
+        }
+      }
+
+      function debounce(fn, delay) {
+        let timer = null
+        return () => {
+          if (timer) window.clearTimeout(timer)
+          timer = window.setTimeout(() => {
+            fn()
+          }, delay)
+        }
+      }
+
+      const handleClick = () => {
+        console.log(1)
+      }
+
+      const oBtn = window.document.querySelector('#btn')
+
+      oBtn.onclick = debounce(handleClick, 1000)
+    </script>
+  </body>
+</html>

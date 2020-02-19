@@ -1,31 +1,10 @@
 {
-  "dependencies": {
-    "global": "^4.4.0",
-    "ts-node": "^8.6.2",
-    "typescript": "^3.7.5"
-  },
-  "devDependencies": {
-    "@types/jest": "^25.1.1",
-    "jest": "^25.1.0",
-    "ts-jest": "^25.2.0"
-  },
-  "scripts": {
-    "dev": "tsc index.ts",
-    "test": "jest"
-  },
-  "name": "lin-utils",
-  "description": "工具库\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D",
-  "version": "1.0.0",
-  "main": "jest.config.js",
-  "directories": {
-    "test": "test"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/linhuibin98/lin-utils.git"
-  },
+  "name": "lin-util",
+  "version": "0.1.1",
+  "description": "工具库utils",
   "keywords": [
-    "arra",
+    "utils",
+    "array",
     "function",
     "object",
     "\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[D\u001b[Dutils\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[D\u001b[D\u001b[D\u001b[Darray"
@@ -35,5 +14,27 @@
   "bugs": {
     "url": "https://github.com/linhuibin98/lin-utils/issues"
   },
-  "homepage": "https://github.com/linhuibin98/lin-utils#readme"
+  "homepage": "https://github.com/linhuibin98/lin-utils#readme",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/linhuibin98/lin-utils.git"
+  },
+  "scripts": {
+    "build": "tsc index.ts",
+    "test": "jest"
+  },
+  "dependencies": {
+    "global": "^4.4.0",
+    "ts-node": "^8.6.2",
+    "typescript": "^3.7.5"
+  },
+  "devDependencies": {
+    "@types/jest": "^25.1.1",
+    "jest": "^25.1.0",
+    "ts-jest": "^25.2.0"
+  }
 }

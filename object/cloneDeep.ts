@@ -6,7 +6,7 @@ export default function cloneDeep(target: any): any{
     return target
   }
   // const result = Array.isArray(target) ? [] : {}
-  const result = {}
+  const result: any = {}
 
   Object.keys(target).forEach(key => {
     if(result[key]){ return;}
@@ -15,8 +15,3 @@ export default function cloneDeep(target: any): any{
   
   return result
 }
-
-let arr = [1, 2, { a: 3, b: 4 }]
-let obj = {a: 1, b: {c: 2, d: 3}}
-
-console.log(cloneDeep(obj))
